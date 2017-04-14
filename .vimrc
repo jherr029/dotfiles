@@ -58,3 +58,5 @@ syntax enable
 let g:airline_theme = 'afterglow'
 set laststatus=2
 imap jj <ESC>
+nmap <c-s> :w<CR>
+imap <c-s> <jj>:w<CR>a
