@@ -15,12 +15,17 @@ Plug 'tpope/vim-fugitive'
 Plug 'majutsushi/tagbar'
 
 Plug 'mbbill/undotree'
-"Plug 'mhinz/vim-startify'
+Plug 'mhinz/vim-startify'
 Plug 'octol/vim-cpp-enhanced-highlight'
 
 "Plug 'bronson/vim-trailing-whitespace'
 
+Plug 'easymotion/vim-easymotion'
+Plug 'valloric/youcompleteme'
 Plug 'sjl/badwolf'
+Plug 'kien/ctrlp.vim'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'vitalk/vim-simple-todo'
 
 call plug#end( )
 
@@ -46,10 +51,10 @@ set comments=sl:/*,mb:\ *,elx:\ */
 
 let g:delimitMate_expand_cr = 1
 
-colors Monokai
+colors afterglow
 
 syntax enable
 " set background=dark
-let g:airline_theme = 'bubblegum'
+let g:airline_theme = 'afterglow'
 set laststatus=2
 imap jj <ESC>
